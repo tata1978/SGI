@@ -1,0 +1,174 @@
+
+
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#container {		
+		margin: 35px;
+		border: 1px solid #333;
+		box-shadow: 0 0 15px black;				
+	}
+	
+	.caja_diaria{
+		border-collapse: collapse;
+
+	}
+
+	.caja_diaria td{
+		border: 1px solid #333;
+		padding: 2px;
+	}
+
+	.caja_diaria tr:hover {
+	  background-color: #c9feff;	  
+	  font-weight: bold;
+	}	
+
+	.caja_diaria_head th{
+		border: 0px solid #333;
+		padding: 2px;
+		background-color: #006688;
+		color: #FDFDFD;	
+		text-align: center;	
+	}
+
+.caja_diaria_head { border-style: solid; border-top-width: 1px; border-right-width: 2px; border-bottom-width: 1px; border-left-width: 1px} 	
+
+.caja_mensual_head { border-style: solid; border-top-width: 1px; border-right-width: 2px; border-bottom-width: 1px; border-left-width: 1px} 	
+
+
+	.caja_mensual_head th{
+		border: 0px solid #333;
+		padding: 2px;
+		background-color: #006688;
+		color: #FDFDFD;	
+		text-align: center;	
+	}
+	.caja_mensual{
+		border-collapse: collapse;
+	}
+
+	.caja_mensual td{
+		border: 1px solid #333;
+		padding: 5px;
+		text-align: center;
+	}
+
+	.caja_diaria th td{
+		width: 40px;
+	}
+
+
+	#div1 {
+	    overflow:auto;
+	    height:350px;
+	    width: auto;
+	}
+
+	#div1 table {     
+	    
+	}
+
+	.reporte_numeral {
+		width: 35px;
+		text-align: center;
+	}		
+
+	.reporte_nro_pago {
+		width: 75px;
+		text-align: center;
+	}
+
+	.reporte_fecha{
+		width: 125px; 
+	}
+
+	.reporte_locatario{
+		width: 350px;
+	}
+
+	.reporte_edificio{
+		width: 115px;
+	}
+
+	.reporte_inmueble{
+		width: 400px;
+	}
+
+	.reporte_monto{
+		width: 80px;
+	}
+
+	.reporte_usuario{
+		width: 100px;
+		text-align: center;
+	}	
+
+	#div2 {
+	    overflow:auto;
+	    height:350px;
+	    width: auto;	   
+	}
+
+	#div2 table {     
+	    
+	}
+
+	.mensual_periodo{
+		width: 100px;
+		text-align: center;
+	}	
+
+	.mensual_pagos{
+		width: 135px;
+		text-align: center;
+	}
+
+	.mensual_total{
+		width: 120px;
+		text-align: right;
+	}
+
+	.dia{
+		width: 160px;
+	}
+	.registros{
+		width: 225px;
+		text-align: center;
+	}
+	.sumatoria{
+		width: 225px;
+		text-align: center;
+	}
+	.imprimir_diario{
+		width: 325px;
+		text-align: right;
+	}
+	.busqueda{
+		width: 230px;		
+	}	
+	#filtro tr td{
+		vertical-align: center;
+		height: 35px;
+		background: #f3eeff;
+		padding: 3px; 		
+	}
+
+#filtro { border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 1px; border-left-width: 1px; background: #feffd2}
+
+table tr:nth-child(even) {
+    background-color: #f3eeff;
+}
+ 
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
